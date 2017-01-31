@@ -1,0 +1,355 @@
+@font-face {
+    font-family: MicroSquare;
+    src: url(../fonts/MicroSquare.ttf);
+}
+
+.imagen_carousel {
+    width: 100%;
+}
+
+*{
+    font-family: MicroSquare;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+body {
+    margin: 0 0 0 0;
+    background-image: url(../images/patron.png);
+    background-repeat: repeat;
+    /*background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: left bottom;*/
+}
+
+.texto-usuario{
+    color: white;
+}
+
+hr{
+    background: #152329;
+    height: 1px;
+}
+
+
+/* Inicio */
+
+#entradas {
+    margin-top: 10px;
+    background: #ff6600;
+    color: white;
+    border: 1px solid #662900;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.selectpicker {
+    width: 160px;
+    font-family: MicroSquare;
+    border-radius: 5px;
+    color: #152329;
+    background: white;
+    height: 100%;
+    font-size: 20px;
+}
+
+.fecha {
+    display: block;
+    width: 80%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.fechalib {
+    display: block;
+    height: 34px;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.tabla-reserva {
+    width: 100%;
+}
+
+.tabla-reserva tr td {
+    padding-left: 2px;
+    padding-right: 2px;
+    vertical-align: middle;
+}
+
+.td-especial {
+    text-align: center;
+}
+
+#viajeros {
+    width: 20px;
+    font-family: MicroSquare;
+}
+
+/* Pagina de error */
+.cuerpoerror{
+    padding-top: 15px;
+    font-size: 20px;
+    color: #152329;
+    background: white;
+    border-radius: 5px;
+    /*color: white;
+    background: #152329;*/
+}
+
+/* Fase reserva 1*/
+.cuerporeserva{
+    padding-top: 15px;
+    font-size: 20px;
+    color: #152329;
+    background: white;
+    border-radius: 10px;
+}
+
+.aviso{
+    margin-bottom: 2px;
+}
+
+/* Fase reserva 2 */
+.cuerpoformulario{
+    float: left;
+    width: 70%;
+}
+
+.ventanaflotante{
+    padding: 3px 3px 3px 3px;
+    color: white;
+    width: 29%;
+    float: right;
+    background: #152329;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.tablaformulario tr td{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.tablaformulario-servicios tr td{
+    padding: 1px 5px 1px 5px;
+}
+
+.fechanac {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.fechanacAdulto {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#fechanac1{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/* Reserva f3 */
+.tablabebe tr td{
+    padding: 2px;
+}
+
+/*Resumen */
+
+.cuerporesumen{
+    /*width: 100%;*/
+    color: white;
+    background: #152329;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 1px 15px 5px 15px;
+}
+
+.tituloresumen{
+    font-size: 30px;
+    color: #ff6600;
+    width: 100%;
+    border-bottom: 1px solid #ff6600;
+}
+
+.tablaresumen{
+    width: 100%;
+}
+
+.tdelemento{
+    width:90%;
+}
+
+.tdprecio{
+    width:10%;
+    text-align: right;
+}
+
+/* Reserva f6 */
+.cuerpousuario{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.diventrar{
+    float:left;
+    width: 49%;
+}
+
+.divreqistrar{
+    float: right;
+    width:49%;
+}
+
+.tablaf6{
+    margin:0 auto;
+    width: 85%;
+}
+
+.tablaf6 tr td{
+    padding: 3px;
+}
+
+/* Tarjetas */
+.tabla-tarjeta{
+    width: 50%;
+}
+
+.tabla-tarjeta tr td{
+    padding: 3px 3px 3px 3px;
+    vertical-align: central;
+}
+
+/* Fase final */
+.resumenfinal{
+    float: left;
+    width: 65%;
+    color: white;
+    background: #152329;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 1px 15px 5px 15px;
+}
+
+.datospago{
+    float:right;
+    width: 34%;
+    border: 2px solid #ff6600;
+    border-radius: 4px;
+    padding: 1px 15px 5px 15px;
+    overflow: hidden;
+}
+
+.tablapago{
+    width: 100%;
+}
+
+/* FACTURAR */ 
+.tabla-login{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.tabla-login tr td{
+    padding: 2px;
+}
+
+/* Tarjetas de embarque */
+.tarjeta{
+    width: 100%;
+    border:1px solid black;
+    display: table;
+    margin-bottom: 10px;
+    background-image: url("../images/tarjeta3.png");
+    background-repeat: no-repeat;
+}
+
+.tabla-tarjeta{
+    width: 100%;
+    display: block;
+    height: 100%;
+    font-size: 22px;
+}
+
+.tabla-tarjeta tr td{
+    padding: 4px 4px 4px 4px;
+}
+
+/* VENTANA FLOTANTE */
+.tabla-interior-vflotante{
+    width: 100%;
+}
+
+
