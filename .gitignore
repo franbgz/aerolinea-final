@@ -13,7 +13,7 @@ hs_err_pid*
 
 #Netbeans
 test/
-nbproject/
+build/
 
 #Documentation
 doc/
